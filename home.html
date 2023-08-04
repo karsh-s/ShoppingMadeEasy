@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Shopping Made Simple Page 1</title>
+  <link rel="stylesheet" href="./home.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<h1> Shopping made simple. </h1>
+
+<p> Select the place you want to shop at. </p>
+
+<button onclick="resetImg()"> Reset choice. </button>
+
+<br>
+<br>
+<br>
+
+<p2> City of Casey: </p2>
+
+<div id="imageTrack">
+  <div id="scrollableContent">
+    <img class="image" src="https://a.storyblok.com/f/129601/1920x1280/cb823b6046/cranbourne-park_extrior-signage.jpg" draggable="false" onclick="enlargeImg()" id="img1" />
+  <img class="image" src="https://treeremoval-melbourne.com.au/wp-content/uploads/2021/09/Fountain-gate-shopping-centre.jpg" draggable="false" onclick="enlargeImg2()" id="img2" />
+  <img class="image" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9e/6f/98/casey-central.jpg?w=500&h=-1&s=1" draggable="false" onclick="enlargeImg3()" id="img3"/>
+  <img class="image" src="https://www.nevpask.com.au/wp-content/uploads/2016/07/Eden-Rise-%E2%80%93-2.jpg" draggable="false" onclick="enlargeImg4()" id="img4"/>
+  <img class="image" src="https://www.specialtymallleasing.com/images/ctr_pics/302/unnamed.jpg" draggable="false" onclick="enlargeImg5()" id="img5"/>
+  <img class="image" src="https://shopatspringhill.com.au/wp-content/uploads/2017/09/SpringhillSC1.jpg" draggable="false" onclick="enlargeImg6()" id="img6"/>
+  </div>
+</div>
+
+<br>
+
+<p2> City of Monash: </p2>
+
+<div id="imageTrack2">
+  <div id="scrollableContent">
+    <img class="image" src="https://www.m-cityliving.com/wp-content/uploads/2021/01/MCITY-WEB-SLIDER5.jpg" draggable="false"  onclick="enlargeImg7()" id="img7"/>
+  <img class="image" src="https://sunkin.com.au/wp-content/uploads/2020/10/sunkin-investment-century-city-walk-1.jpg" draggable="false" onclick="enlargeImg8()" id="img8"/>
+  <img class="image" src="https://www.shichida.com.au/wp-content/uploads/2021/11/Chadstone-min.jpg" draggable="false" onclick="enlargeImg9()" id="img9"/>
+  <img class="image" src="https://www.mustdobrisbane.com/sites/default/files/styles/mdb_article_full/public/featured/Glen-Hotel_External-%28002%29.jpg?itok=EEiwx5JG" draggable="false" onclick="enlargeImg10()" id="img10"/>
+  <img class="image" src="https://i.dailymail.co.uk/i/newpix/2018/06/12/02/4D25559B00000578-5833047-The_Oakleigh_Centre_mall_in_Melbourne_s_south_east_has_defending-a-46_1528768475381.jpg" draggable="false" onclick="enlargeImg11()" id="img11"/>
+  <img class="image" src="https://pbs.twimg.com/media/FYl7JwnaIAAFvAS.jpg" draggable="false" onclick="enlargeImg12()" id="img12"/>
+  </div>
+</div>
+  <script>
+        function enlargeImg() {
+            img = document.getElementById("img1");
+            img.style.transform = "scale(1.1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg2() {
+            img2 = document.getElementById("img2");
+            img2.style.transform = "scale(1.1)";
+            img2.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg3() {
+            img3 = document.getElementById("img3");
+            img3.style.transform = "scale(1.1)";
+            img3.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg4() {
+            img4 = document.getElementById("img4");
+            img4.style.transform = "scale(1.1)";
+            img4.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg5() {
+            img5 = document.getElementById("img5");
+            img5.style.transform = "scale(1.1)";
+            img5.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg6() {
+            img6 = document.getElementById("img6");
+            img6.style.transform = "scale(1.1)";
+            img6.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+    
+        function enlargeImg7() {
+            img7 = document.getElementById("img7");
+            img7.style.transform = "scale(1.1)";
+            img7.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg8() {
+            img8 = document.getElementById("img8");
+            img8.style.transform = "scale(1.1)";
+            img8.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg9() {
+            img9 = document.getElementById("img9");
+            img9.style.transform = "scale(1.1)";
+            img9.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg10() {
+            img10 = document.getElementById("img10");
+            img10.style.transform = "scale(1.1)";
+            img10.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg11() {
+            img11 = document.getElementById("img11");
+            img11.style.transform = "scale(1.1)";
+            img11.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    
+        function enlargeImg12() {
+            img12 = document.getElementById("img12");
+            img12.style.transform = "scale(1.1)";
+            img12.style.transition = "transform 0.25s ease";
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+        }
+    
+        function resetImg() {
+            img.style.transform = "scale(1)";
+            img.style.transition = "transform 0.25s ease";
+            img2.style.transform = "scale(1)";
+            img2.style.transition = "transform 0.25s ease";
+            img3.style.transform = "scale(1)";
+            img3.style.transition = "transform 0.25s ease";
+            img4.style.transform = "scale(1)";
+            img4.style.transition = "transform 0.25s ease";
+            img5.style.transform = "scale(1)";
+            img5.style.transition = "transform 0.25s ease";
+            img6.style.transform = "scale(1)";
+            img6.style.transition = "transform 0.25s ease";
+            img7.style.transform = "scale(1)";
+            img7.style.transition = "transform 0.25s ease";
+            img8.style.transform = "scale(1)";
+            img8.style.transition = "transform 0.25s ease";
+            img9.style.transform = "scale(1)";
+            img9.style.transition = "transform 0.25s ease";
+            img10.style.transform = "scale(1)";
+            img10.style.transition = "transform 0.25s ease";
+            img11.style.transform = "scale(1)";
+            img11.style.transition = "transform 0.25s ease";
+            img12.style.transform = "scale(1)";
+            img12.style.transition = "transform 0.25s ease";
+        }
+    </script>
+
+
+<br>
+
+<a href="page1.html">
+<button> Submit. </button>
+</a>
+<!-- partial -->
+  <script  src="./home.js"></script>
+
+</body>
+</html>
